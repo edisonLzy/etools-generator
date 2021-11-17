@@ -14,6 +14,17 @@ const resolve = (p) => {
 
 export default defineConfig({
   input: resolve('./src/index.ts'),
+  external: [
+    'fs-extra',
+    'ejs',
+    'fast-glob',
+    'listr2',
+    'p-map',
+    'update-notifier',
+    'signale',
+    /^@babel/,
+    'ts-node',
+  ],
   output: [
     {
       format: 'cjs',

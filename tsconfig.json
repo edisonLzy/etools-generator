@@ -15,9 +15,8 @@
     "baseUrl": "./",
     "declarationDir": "./types",
     "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
     "paths": {
-      "@/*":["src/*"]
+      "@/*": ["src/*"]
     }
   },
   "include": ["src/**/*"]

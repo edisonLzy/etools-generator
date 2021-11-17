@@ -1,6 +1,9 @@
 node_modules
 es
 lib
+local
 *.local.*
 coverage
 /types
+/templates
+dist
